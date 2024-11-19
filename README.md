@@ -1,36 +1,31 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Sports Event Calendar
 
-## Getting Started
+## To-Do List: Calendar View
 
-First, run the development server:
+### 1. Set Up the Project Structure
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- [x] Ensure the Next.js project is running correctly
+- [x] Initiate Home Page.tsx
+- [ ] Import components
+  - [ ] Calendar.tsx
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### 2. Set up Calendar Component
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- [ ] Create file app/components/calendar.tsx
+- [ ] Implement logic:
+  - [ ] Calculate the current month
+  - [ ] Determine the number of days in the current month
+  - [ ] Find way to implement event data
+  - [ ] Display the days of the month in a grid format as stated in the exercise description
+  - [ ] Mark days with scheduled events
+- [ ] Check if calender renders correctly
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### 3. Update the Homepage
 
-## Learn More
+- [ ] Add heading or description for the calendar
+- [ ] Check if everything works as expected
 
-To learn more about Next.js, take a look at the following resources:
+### 4. Style
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- [ ] Create scss file for calendar component (Calendar.module.scss)
+- [ ] Adjust the calendar component to use CSS classes from the scss file
